@@ -78,9 +78,10 @@ export const H1 = styled.h1`
   padding-left: 20px;
 
   @media (max-width: ${breakpoints.desktop}) {
-    font-size: 22px;
+    font-size: 20px;
     margin: 0;
-    letter-spacing: 1px;
+    /* letter-spacing: 1px; */
+    white-space: nowrap;
     text-align: center;
     margin: 0;
     padding-left: 0;
