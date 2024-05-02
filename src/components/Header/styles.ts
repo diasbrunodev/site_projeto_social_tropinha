@@ -30,6 +30,7 @@ export const DivMenuResponsive = styled.div`
 
       @media (max-width: ${breakpoints.desktop}) {
         justify-content: space-between;
+        align-items: end;
         padding: 5px 0 0 0;
       }
     }
@@ -77,8 +78,9 @@ export const H1 = styled.h1`
   padding-left: 20px;
 
   @media (max-width: ${breakpoints.desktop}) {
-    font-size: 1em;
+    font-size: 0.9em;
     margin: 0;
+    letter-spacing: 1px;
   }
 `
 

@@ -51,7 +51,7 @@ export const DivButtons = styled.div`
     }
 
     .link {
-      color: ${Colors.black};
+      color: ${Colors.black3};
     }
   }
 `

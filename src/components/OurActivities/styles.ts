@@ -15,10 +15,10 @@ export const DivActivities = styled.div`
 export const DivButtonOurActivities = styled.div`
   ${ButtonLink} {
     background-color: ${Colors.white};
-    margin-top: 42px;
+    margin-top: 33px;
 
     @media (max-width: ${breakpoints.desktop}) {
-      margin-top: 0;
+      margin-top: 10px;
     }
 
     .link {
