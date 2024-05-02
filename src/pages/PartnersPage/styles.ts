@@ -1,10 +1,15 @@
 import styled from 'styled-components'
 import { H2, H3 } from '../../components/Project/styles'
 import { H4 } from '../../components/HelpUs/styles'
+import { breakpoints } from '../../styles'
 
 export const PartnerSection = styled.section`
   ${H2} {
     margin-bottom: 30px;
+
+    @media (max-width: ${breakpoints.desktop}) {
+      margin-bottom: 10px;
+    }
   }
 `
 
@@ -14,6 +19,12 @@ export const DivImages = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+
+  @media (max-width: ${breakpoints.desktop}) {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
 `
 
 export const DivInfoPartners = styled.div`

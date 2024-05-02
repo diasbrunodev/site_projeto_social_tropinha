@@ -151,10 +151,9 @@ export const Contact = () => {
 
         <DivLocation>
           <H3>Nossa Localização</H3>
-          <P>
-            Estamos na Travessa Carlos Xavier, nº 96, Madureira, Rio de Janeiro
-            - RJ - CEP: 21310-010
-          </P>
+          <P>Estamos na Travessa Carlos Xavier, nº 96</P>
+          <P>Madureira, Rio de Janeiro - RJ</P>
+          <P>CEP: 21310-010</P>
           <P>Clube dos Subtenentes e Sargentos dos Bombeiros</P>
         </DivLocation>
 

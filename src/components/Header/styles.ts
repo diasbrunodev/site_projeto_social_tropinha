@@ -42,10 +42,10 @@ export const LogoDiv = styled.div`
   align-items: end;
 
   .divLogo {
-    width: 8em;
+    width: 9em;
 
     @media (max-width: ${breakpoints.desktop}) {
-      width: 4em;
+      width: 5em;
     }
 
     img {
@@ -54,10 +54,10 @@ export const LogoDiv = styled.div`
   }
 
   .divTitleLogo {
-    width: 17em;
+    width: 24em;
 
     @media (max-width: ${breakpoints.desktop}) {
-      width: 11.5em;
+      width: 13em;
     }
 
     img {
@@ -73,7 +73,7 @@ export const Links = styled.ul`
 
   a {
     color: ${Colors.green2};
-    font-size: 12px;
+    font-size: 16px;
     font-weight: bold;
   }
 
@@ -112,6 +112,7 @@ export const IconContainers = styled.div`
     width: 100%;
     margin: 0;
     padding: 5px 20px;
+    border-bottom: 1px solid black;
   }
 `
 

@@ -1,12 +1,8 @@
 import styled from 'styled-components'
-import { Colors, breakpoints } from '../../styles'
+import { breakpoints } from '../../styles'
 
 export const ContainerHelp = styled.div`
   width: 100%;
-
-  @media (max-width: ${breakpoints.desktop}) {
-    border: 1px solid ${Colors.green2};
-  }
 
   img {
     width: 100%;

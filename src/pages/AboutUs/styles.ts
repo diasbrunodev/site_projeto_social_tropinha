@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { Colors } from '../../styles'
+import { Colors, breakpoints } from '../../styles'
 
 export const BackgroundAboutUs = styled.div`
   background-color: ${Colors.green2};
@@ -7,6 +7,12 @@ export const BackgroundAboutUs = styled.div`
   width: 75%;
   margin: 0 auto 20px;
   border-radius: 5px;
+
+  @media (max-width: ${breakpoints.desktop}) {
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+  }
 `
 
 export const ContainerAboutUs = styled.section`
@@ -16,6 +22,10 @@ export const ContainerAboutUs = styled.section`
   margin: auto;
   border-radius: 5px;
   padding: 20px;
+
+  @media (max-width: ${breakpoints.desktop}) {
+    width: 100%;
+  }
 `
 
 export const ButtonLink = styled.div`

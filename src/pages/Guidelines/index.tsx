@@ -10,7 +10,11 @@ import {
   ButtonLink,
   ContainerAboutUs
 } from '../AboutUs/styles'
-import { GuidelineSection, LogoMainDiv } from './styles'
+import {
+  ContainerGuidelineSection,
+  GuidelineSection,
+  LogoMainDiv
+} from './styles'
 
 export const Guidelines = () => {
   return (
@@ -23,7 +27,7 @@ export const Guidelines = () => {
 
           <H2>Nossas Diretrizes</H2>
 
-          <div>
+          <ContainerGuidelineSection>
             <GuidelineSection>
               <img src={logoMissao} alt="logo diretrizes" />
               <div>
@@ -52,7 +56,7 @@ export const Guidelines = () => {
               </div>
             </GuidelineSection>
 
-            <GuidelineSection>
+            <GuidelineSection className="border-last-GuidelineSection">
               <img src={logoValores} alt="logo diretrizes" />
               <div>
                 <H3>Valores</H3>
@@ -65,7 +69,7 @@ export const Guidelines = () => {
                 </P>
               </div>
             </GuidelineSection>
-          </div>
+          </ContainerGuidelineSection>
         </div>
 
         <ButtonLink>

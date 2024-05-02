@@ -7,6 +7,7 @@ export const ContainerHelp = styled.div`
 
   @media (max-width: ${breakpoints.desktop}) {
     background-color: ${Colors.white};
+    padding: 10px;
   }
 
   ${H3} {
