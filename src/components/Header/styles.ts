@@ -66,13 +66,29 @@ export const LogoDiv = styled.div`
   }
 `
 
+export const H1 = styled.h1`
+  color: ${Colors.green4};
+
+  font-family: 'Bungee', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+  margin: -16px;
+  padding-left: 20px;
+
+  @media (max-width: ${breakpoints.desktop}) {
+    font-size: 1em;
+    margin: 0;
+  }
+`
+
 export const Links = styled.ul`
   display: flex;
   padding: 10px;
   gap: 10px;
 
   a {
-    color: ${Colors.green2};
+    color: ${Colors.green4};
     font-size: 16px;
     font-weight: bold;
   }
@@ -95,6 +111,10 @@ export const Border = styled.div`
   border: 1px solid black;
   width: 100%;
   margin: auto;
+`
+
+export const BackgroundIconContainers = styled.div`
+  background-color: ${Colors.black3};
 `
 
 export const IconContainers = styled.div`
@@ -136,5 +156,9 @@ export const IconMenu = styled.div`
 
   &.is-open {
     display: block;
+    background-color: ${Colors.black3};
+    color: ${Colors.green4};
+    padding: 5px;
+    border-radius: 5px;
   }
 `

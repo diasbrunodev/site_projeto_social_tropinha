@@ -13,8 +13,10 @@ import { TiThMenuOutline } from 'react-icons/ti'
 import { IoCloseCircle } from 'react-icons/io5'
 
 import {
+  BackgroundIconContainers,
   Border,
   DivMenuResponsive,
+  H1,
   Hamburger,
   HeaderBar,
   IconContainers,
@@ -26,7 +28,7 @@ import {
 } from './styles'
 
 import logo from '../../images/logo_tropinha_oficial_site.png'
-import titleLogo from '../../images/titulo_tropinha_topo.png'
+// import titleLogo from '../../images/titulo_tropinha_topo.png'
 
 export const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -43,7 +45,8 @@ export const Header = () => {
               </div>
             </Link>
             <div className="divTitleLogo">
-              <img src={titleLogo} alt="Logo Projeto Tropinha" />
+              {/* <img src={titleLogo} alt="Logo Projeto Tropinha" /> */}
+              <H1>PROJETO TROPINHA</H1>
             </div>
           </LogoDiv>
 
@@ -54,11 +57,11 @@ export const Header = () => {
             }}
           >
             <IconMenu className={isMenuOpen ? '' : 'is-open'}>
-              <TiThMenuOutline size={34} color="#000" />
+              <TiThMenuOutline size={34} />
             </IconMenu>
 
             <IconMenu className={isMenuOpen ? 'is-open' : ''}>
-              <IoCloseCircle size={34} color="#000" />
+              <IoCloseCircle size={34} />
             </IconMenu>
           </Hamburger>
         </div>
@@ -92,7 +95,8 @@ export const Header = () => {
             </div>
           </Link>
           <div className="divTitleLogo">
-            <img src={titleLogo} alt="Logo Projeto Tropinha" />
+            {/* <img src={titleLogo} alt="Logo Projeto Tropinha" /> */}
+            <H1>PROJETO TROPINHA</H1>
           </div>
         </LogoDiv>
         <nav>
@@ -118,36 +122,38 @@ export const Header = () => {
 
       <Border></Border>
 
-      <IconContainers>
-        <a
-          href="https://www.instagram.com/projetotropinha/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <FaInstagramSquare size={34} color="#000" />
-        </a>
-        <a
-          href="https://www.linkedin.com/in/projeto-tropinha-068051257/?originalSubdomain=br"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <FaLinkedin size={34} color="#000" />
-        </a>
-        <a
-          href={`https://api.whatsapp.com/send?phone=5521972365359&text=Gostaria de informações sobre o Projeto Tropinha.`}
-          target="_blank"
-          rel="noreferrer"
-        >
-          <FaWhatsappSquare size={34} color="#000" />
-        </a>
-        <a
-          href="https://www.tiktok.com/@projetosocialtropinha?_t=8eBSeBbcgq6&_r=1"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <FaTiktok size={34} color="#000" />
-        </a>
-      </IconContainers>
+      <BackgroundIconContainers>
+        <IconContainers>
+          <a
+            href="https://www.instagram.com/projetotropinha/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FaInstagramSquare size={34} color="#25D366" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/projeto-tropinha-068051257/?originalSubdomain=br"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FaLinkedin size={34} color="#25D366" />
+          </a>
+          <a
+            href={`https://api.whatsapp.com/send?phone=5521972365359&text=Gostaria de informações sobre o Projeto Tropinha.`}
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FaWhatsappSquare size={34} color="#25D366" />
+          </a>
+          <a
+            href="https://www.tiktok.com/@projetosocialtropinha?_t=8eBSeBbcgq6&_r=1"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FaTiktok size={34} color="#25D366" />
+          </a>
+        </IconContainers>
+      </BackgroundIconContainers>
     </>
   )
 }

@@ -5,13 +5,14 @@ export const BackgroundAboutUs = styled.div`
   background-color: ${Colors.green2};
   padding: 20px;
   width: 75%;
-  margin: 0 auto 20px;
+  margin: 0 auto;
   border-radius: 5px;
 
   @media (max-width: ${breakpoints.desktop}) {
     width: 100%;
     padding: 10px;
     margin: 0;
+    border-radius: 0;
   }
 `
 

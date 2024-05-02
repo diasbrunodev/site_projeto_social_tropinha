@@ -2,10 +2,12 @@ import styled, { createGlobalStyle } from 'styled-components'
 
 export const Colors = {
   green1: '#2ecc71',
-  green2: '#006600',
+  green2: '#006400', //#20bf6b #006600
   green3: 'rgb(82,212, 82)',
+  green4: '#25D366',
   black: '#111',
   black2: '#1e272e',
+  black3: '#050a1f',
   gray: '#95a5a6',
   gray2: '#f1f2f6',
   white: '#ffffff'

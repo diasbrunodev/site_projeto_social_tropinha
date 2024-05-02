@@ -44,7 +44,7 @@ export const DivButtons = styled.div`
   }
 
   ${ButtonLink} {
-    background-color: ${Colors.green3};
+    background-color: ${Colors.green4};
 
     @media (max-width: ${breakpoints.desktop}) {
       margin-bottom: 20px;
