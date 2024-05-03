@@ -80,7 +80,6 @@ export const H1 = styled.h1`
   @media (max-width: ${breakpoints.desktop}) {
     font-size: 20px;
     margin: 0;
-    /* letter-spacing: 1px; */
     white-space: nowrap;
     text-align: center;
     margin: 0;
@@ -98,6 +97,17 @@ export const Links = styled.ul`
     color: ${Colors.green4};
     font-size: 16px;
     font-weight: bold;
+
+    transition: font-size 0.3s ease;
+
+    &:hover {
+      font-size: 20px;
+      color: ${Colors.black4};
+    }
+
+    @media (max-width: ${breakpoints.tablet}) {
+      color: ${Colors.black4};
+    }
   }
 
   @media (max-width: ${breakpoints.tablet}) {
@@ -121,7 +131,7 @@ export const Border = styled.div`
 `
 
 export const BackgroundIconContainers = styled.div`
-  background-color: ${Colors.black3};
+  background-color: ${Colors.black4};
 `
 
 export const IconContainers = styled.div`
@@ -163,7 +173,7 @@ export const IconMenu = styled.div`
 
   &.is-open {
     display: block;
-    background-color: ${Colors.black3};
+    background-color: ${Colors.black4};
     color: ${Colors.green4};
     padding: 5px;
     border-radius: 5px;

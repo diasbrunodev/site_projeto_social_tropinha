@@ -8,6 +8,7 @@ export const Colors = {
   black: '#111',
   black2: '#1e272e',
   black3: '#050a1f',
+  black4: '#000000',
   gray: '#95a5a6',
   gray2: '#f1f2f6',
   white: '#ffffff'
