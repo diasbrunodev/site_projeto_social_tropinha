@@ -79,6 +79,7 @@ export const Project = () => {
           pagination={{ clickable: true }}
           navigation
           autoplay={{ delay: 3000 }}
+          loop
         >
           <SwiperSlide>
             <img src={img1} alt="imagem do projeto" />
@@ -125,6 +126,7 @@ export const Project = () => {
             pagination={{ clickable: true }}
             navigation
             autoplay={{ delay: 3000 }}
+            loop
           >
             <SwiperSlide>
               <img src={foto2} alt="imagem do projeto" />

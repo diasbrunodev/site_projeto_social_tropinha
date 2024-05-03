@@ -45,6 +45,10 @@ export const LogoDiv = styled.div`
   .divLogo {
     width: 9em;
 
+    &:hover {
+      width: 9.1em;
+    }
+
     @media (max-width: ${breakpoints.desktop}) {
       width: 5em;
     }
@@ -101,8 +105,8 @@ export const Links = styled.ul`
     transition: font-size 0.3s ease;
 
     &:hover {
-      font-size: 20px;
       color: ${Colors.black4};
+      border-bottom: 1px solid black;
     }
 
     @media (max-width: ${breakpoints.tablet}) {
@@ -150,6 +154,17 @@ export const IconContainers = styled.div`
     margin: 0;
     padding: 5px 20px;
     border-bottom: 1px solid black;
+  }
+
+  .social-icon {
+    color: #25d366;
+    transition: color 0.3s ease; /* Adiciona uma transição suave para a mudança de cor */
+  }
+
+  .social-icon:hover {
+    color: ${Colors.black4}; /* Cor ao passar o mouse */
+    background-color: ${Colors.green4};
+    border-radius: 5px;
   }
 `
 

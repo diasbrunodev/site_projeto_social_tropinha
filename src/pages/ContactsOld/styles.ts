@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { Colors, breakpoints } from '../../styles'
+import { Colors } from '../../styles'
 
 export const DivContactSection = styled.div`
   border-bottom: 1px solid black;
@@ -11,23 +11,7 @@ export const DivWhatsAppEmail = styled.div`
   justify-content: space-between;
   align-items: end;
 
-  padding: 15px 10px 15px 0;
-
-  @media (max-width: ${breakpoints.desktop}) {
-    display: block;
-  }
-
-  .div-whatsapp {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-
-    @media (max-width: ${breakpoints.desktop}) {
-      justify-content: flex-start;
-      margin: 0 0 20px -15px;
-    }
-  }
+  padding: 15px 0;
 `
 
 export const Form = styled.div`

@@ -129,28 +129,28 @@ export const Header = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <FaInstagramSquare size={34} color="#25D366" />
+            <FaInstagramSquare size={34} className="social-icon" />
           </a>
           <a
             href="https://www.linkedin.com/in/projeto-tropinha-068051257/?originalSubdomain=br"
             target="_blank"
             rel="noreferrer"
           >
-            <FaLinkedin size={34} color="#25D366" />
+            <FaLinkedin size={34} className="social-icon" />
           </a>
           <a
             href={`https://api.whatsapp.com/send?phone=5521972365359&text=Gostaria de informações sobre o Projeto Tropinha.`}
             target="_blank"
             rel="noreferrer"
           >
-            <FaWhatsappSquare size={34} color="#25D366" />
+            <FaWhatsappSquare size={34} className="social-icon" />
           </a>
           <a
             href="https://www.tiktok.com/@projetosocialtropinha?_t=8eBSeBbcgq6&_r=1"
             target="_blank"
             rel="noreferrer"
           >
-            <FaTiktok size={34} color="#25D366" />
+            <FaTiktok size={34} className="social-icon" />
           </a>
         </IconContainers>
       </BackgroundIconContainers>

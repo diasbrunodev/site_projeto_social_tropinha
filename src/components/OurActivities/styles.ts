@@ -24,6 +24,13 @@ export const DivButtonOurActivities = styled.div`
     .link {
       color: ${Colors.green2};
     }
+
+    &:hover {
+      background-color: ${Colors.black4};
+      .link {
+        color: ${Colors.green4};
+      }
+    }
   }
 `
 

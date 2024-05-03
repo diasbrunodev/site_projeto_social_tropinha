@@ -36,6 +36,13 @@ export const ContainerHelp = styled.div`
     background-color: ${Colors.green2};
     color: ${Colors.white};
     margin: 40px auto;
+
+    &:hover {
+      background-color: ${Colors.black4};
+      .link {
+        color: ${Colors.green4};
+      }
+    }
   }
 `
 

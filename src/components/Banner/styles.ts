@@ -46,12 +46,21 @@ export const DivButtons = styled.div`
   ${ButtonLink} {
     background-color: ${Colors.green4};
 
+    transition: color 0.3s ease; /* Adiciona uma transição suave para a mudança de cor */
+
     @media (max-width: ${breakpoints.desktop}) {
       margin-bottom: 20px;
     }
 
     .link {
       color: ${Colors.black3};
+    }
+
+    &:hover {
+      background-color: ${Colors.black4};
+      .link {
+        color: ${Colors.green4};
+      }
     }
   }
 `

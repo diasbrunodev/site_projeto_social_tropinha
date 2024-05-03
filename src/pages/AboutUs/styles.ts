@@ -48,4 +48,11 @@ export const ButtonLink = styled.div`
 
     font-weight: bold;
   }
+
+  &:hover {
+    background-color: ${Colors.black4};
+    .link {
+      color: ${Colors.green4};
+    }
+  }
 `
