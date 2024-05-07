@@ -1,5 +1,12 @@
 import styled from 'styled-components'
 import { Colors, breakpoints } from '../../styles'
+import { ContainerAboutUs } from '../AboutUs/styles'
+
+export const ContainerContact = styled.div`
+  ${ContainerAboutUs} {
+    height: 100vh;
+  }
+`
 
 export const DivContactSection = styled.div`
   border-bottom: 1px solid black;

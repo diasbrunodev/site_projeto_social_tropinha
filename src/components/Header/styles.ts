@@ -51,6 +51,10 @@ export const LogoDiv = styled.div`
 
     @media (max-width: ${breakpoints.desktop}) {
       width: 5em;
+
+      &:hover {
+        width: 5em;
+      }
     }
 
     img {
